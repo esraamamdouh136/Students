@@ -49,12 +49,26 @@ body {
   .mat-form-field-infix {
     width: 482px !important;
   }
+
   button.mat-focus-indicator.btn-style.mat-button.mat-button-base {
     width: 50%;
     background-color: darkcyan;
     color: white;
+  }
+
+  button.mat-focus-indicator.mat-button.mat-flat-button.mat-button-base.mat-warn {
+    width: 48%;
+  }
 }
-button.mat-focus-indicator.mat-button.mat-flat-button.mat-button-base.mat-warn {
-  width: 48%;
-}
+
+@media only screen and (max-width : 992px) {
+  button.mat-focus-indicator.mat-button.mat-flat-button.mat-button-base.mat-warn {
+    width: 100% !important;
+    margin-top: 20px !important;
+
+  }
+
+  button.mat-focus-indicator.btn-style.mat-button.mat-button-base {
+    width: 100% !important;
+  }
 }

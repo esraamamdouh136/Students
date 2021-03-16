@@ -8,7 +8,7 @@
     }
   }
   .title {
-    margin: 20px 0px;
+    margin-top: 20px;
 
     h2 {
       font-family: fantasy;
@@ -21,8 +21,21 @@
       background-color: darkcyan;
       color: white;
       margin-left: auto;
-      width: 20%;
+      width: 100%;
     }
     
   }
+  .btn {
+    margin-top: 5px;
+  }
+}
+
+@media only screen and (max-width : 992px) {
+  .mat-button {
+    width: 100% !important;
+  }
+  .btn{
+    width: 100% !important;
+  }
+
 }
